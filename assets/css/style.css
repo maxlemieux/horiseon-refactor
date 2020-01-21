@@ -4,6 +4,11 @@
     margin: 0;
 }
 
+/* Support for semantic tags in older browsers */
+aside, footer, header, nav, section {
+    display: block;
+}
+
 body {
     background-color: #d9dcd6;
 }
@@ -47,7 +52,7 @@ p {
     font-size: 16px;
 }
 
-header div {
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -55,11 +60,11 @@ header div {
     font-size: 20px;
 }
 
-header ul {
+nav ul {
     list-style-type: none;
 }
 
-header li {
+nav li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -83,13 +88,13 @@ header li {
     margin-left: 25px;
 }
 
-content {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-content div {
+main section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -98,11 +103,11 @@ content div {
     color: #ffffff;
 }
 
-content img {
+main img {
     max-height: 200px;
 }
 
-benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -113,12 +118,12 @@ benefits {
     background-color: #2589bd;
 }
 
-benefits div {
+aside section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-benefits img {
+aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
