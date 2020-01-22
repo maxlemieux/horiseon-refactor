@@ -28,7 +28,7 @@
     </header>
     
     <!-- Splash screen image of four people working in a conference room -->
-    <div class="hero"></div>
+    <div class="hero" title="An image of people meeting in a conference room"></div>
 
     <!-- 2-column layout of company services listings with services on left, value adds on right -->
     
